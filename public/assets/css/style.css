@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#profile-photo{
+
+  transition: 1s;
+}
+
+#profile-photo:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
+  
+
+
+.btn {
+  display: inline-block;
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+  font-size: 24px;
+}
+
+.btn a:hover {
+  transform: scale(1.1);
+}
+
+.followers {
+  display: flex;
+  align-items: center;
+}
+
+.followers i {
+  margin-right: 5px;
+}
+
+.followers p {
+  margin-right: 10px; /
+}
+
+.followers span {
+  font-weight: bold; 
+}
+
+
+#repositorio h3 {
+  color: #33abd3;
+}
+
+.btntopi{
+  display: flex;
+  gap: 5px;
+}
+
+.btntopic{
+  background-color: #33abd3;
+  border-radius: 25px;
+  padding: 8px;
+}
+
+
+h4{
+  font-size: 1rem;
+}
+
+.card {
+  height: 25rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: ease-in 0.4s;
+  margin: 1rem;
+}
+
+.card:hover{
+  scale: 1.03;
+  transition: ease-in 0.4s;
+}
+
+.card a{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+#bntVisitar {
+  height: 2rem;
+  width: 8rem; 
+  margin-right: 2rem;
+  background-color: #33abd3;
+  border: none; 
+  border-radius: 0.4rem;
+  font-weight: bold;
+  color: white;
+  text-align: center; 
+  display: inline-block; 
+  line-height: 2rem; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+  text-decoration: none; 
+  cursor: pointer; 
+}
+
+#bntVisitar:hover {
+  background-color: white;
+  color: #33abd3;
+  border: 1px solid #33abd3; 
+}
+.rounded-circle {
+  width: 200px; 
+  height: 200px; 
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .items{
+      display: flex;
+      flex-direction: column;
+      width: max-content;
+      align-items: center;
+  }
+
+  a{
+      word-wrap: break-word;
+  }
+}
